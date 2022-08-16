@@ -52,7 +52,7 @@ def bater_ponto():
 
     # Digitando Senha
     pytm.sleep(1);
-    navegador.find_element(by = By.XPATH, value = '/html/body/form/div[3]/div/div[3]/div[2]/input[1]').send_keys('Chinixy123');
+    navegador.find_element(by = By.XPATH, value = '/html/body/form/div[3]/div/div[3]/div[2]/input[1]').send_keys('');
 
     # Clicando em OK
     pytm.sleep(1);
